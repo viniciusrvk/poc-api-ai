@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: poc-api-ai
+server:
+  port: 8080
