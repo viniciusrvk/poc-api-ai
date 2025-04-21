@@ -3,3 +3,11 @@ spring:
     name: poc-api-ai
 server:
   port: 8080
+  servlet:
+    context-path: /poc-api-ai
+
+openrouter:
+  api-key: $OPENROUTER_API_KEY
+  base-url: $OPENROUTER_BASE_URL
+  path: $OPENROUTER_PATH
+  model: $OPENROUTER_MODEL
